@@ -1,0 +1,3 @@
+export const Send_Weather_Request="Send_Weather_Request"
+export const Recive_Weather_Request="Recive_Weather_Request"
+export const Recive_Weather_ERROR="Recive_Weather_ERROR"
