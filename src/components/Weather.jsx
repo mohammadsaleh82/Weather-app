@@ -57,7 +57,7 @@ const Weather = () => {
                 </div>
 
                 <div className="temperature text-center">
-                    {loading ? (<><h1>loading</h1></>) : data.main ? (
+                    {loading ? (<><div class="spin"></div></>) : data.main ? (
                         <>
                             <h1>{`${Math.round(data.main.temp - 273.15)} C`}</h1>
                             <h2>{data.weather[0].main}</h2>
